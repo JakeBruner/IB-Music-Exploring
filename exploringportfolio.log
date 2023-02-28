@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  28 FEB 2023 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  28 FEB 2023 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,7 +774,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4] [5] [6] [7] [8]
-Overfull \hbox (0.50519pt too wide) in paragraph at lines 157--157
+Overfull \hbox (0.50519pt too wide) in paragraph at lines 158--158
 [][]\OT1/cmr/m/n/10.95 Ravel, Mau-rice. \OT1/cmr/m/it/10.95 Pi-ano Con-certo Fo
 r The Left Hand\OT1/cmr/m/n/10.95 . Song. 1930. \OT1/cmr/m/sc/10.95 url\OT1/cmr
 /m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https :
@@ -788,13 +788,13 @@ Package logreq Info: Writing requests to 'exploringportfolio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19854 strings out of 478994
- 333936 string characters out of 5858184
- 957762 words of memory out of 5000000
- 37057 multiletter control sequences out of 15000+600000
+ 19853 strings out of 478994
+ 333924 string characters out of 5858184
+ 958762 words of memory out of 5000000
+ 37055 multiletter control sequences out of 15000+600000
  414960 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,16n,79p,2071b,1972s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,79p,2000b,1974s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -809,10 +809,10 @@ ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on exploringportfolio.pdf (9 pages, 207108 bytes).
+Output written on exploringportfolio.pdf (9 pages, 208919 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
