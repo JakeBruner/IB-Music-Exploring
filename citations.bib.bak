@@ -1,0 +1,38 @@
+@misc{ravel,
+	author = {Maurice Ravel},
+	date-added = {2022-09-28 11:57:19 -0400},
+	date-modified = {2022-09-28 11:58:05 -0400},
+	howpublished = {Song},
+	title = {Piano Concerto For The Left Hand},
+	url = {https://www.youtube.com/watch?v=gjiSSWubIuU},
+	year = {1930}}
+
+@misc{rudebuster,
+	author = {Toby Fox},
+	date-added = {2022-09-28 11:54:20 -0400},
+	date-modified = {2022-09-28 12:03:18 -0400},
+	howpublished = {Song},
+	month = {10},
+	title = {Rudebuster},
+	url = {https://www.youtube.com/watch?v=GPL5Hkl11IQ},
+	year = {2018}}
+
+@misc{wiishop,
+	author = {Kazumi Totaka},
+	date-added = {2022-09-28 11:53:13 -0400},
+	date-modified = {2022-09-28 12:03:13 -0400},
+	howpublished = {Song},
+	month = {11},
+	title = {Wii Shop},
+	url = {https://www.youtube.com/watch?v=yyjUmv1gJEg},
+	year = {2006}}
+
+@misc{joplin,
+	author = {Scott Joplin},
+	date-added = {2022-09-28 11:49:59 -0400},
+	date-modified = {2022-09-28 11:53:04 -0400},
+	howpublished = {Song},
+	title = {Country Club Rag},
+	url = {https://www.youtube.com/watch?v=v2nOj0VmRHk},
+	year = {1909}}
+@book{Orenstein, address={New York}, title={Ravel: man and musician}, ISBN={9780486266336}, callNumber={ML410.R23 O73 1991}, publisher={Dover Publications}, author={Orenstein, Arbie}, year={1991} }
