@@ -29,10 +29,25 @@
 
 @misc{joplin,
 	author = {Scott Joplin},
-	date-added = {2022-09-28 11:49:59 -0400},
-	date-modified = {2022-09-28 11:53:04 -0400},
 	howpublished = {Song},
 	title = {Country Club Rag},
 	url = {https://www.youtube.com/watch?v=v2nOj0VmRHk},
-	year = {1909}}
+	year = {1909}
+}
 @book{Orenstein, address={New York}, title={Ravel: man and musician}, ISBN={9780486266336}, callNumber={ML410.R23 O73 1991}, publisher={Dover Publications}, author={Orenstein, Arbie}, year={1991} }
+@article{joplinArticle,
+ ISSN = {00907790},
+ URL = {http://www.jstor.org/stable/1214379},
+ author = {Addison W. Reed},
+ journal = {The Black Perspective in Music},
+ number = {1},
+ pages = {45--52},
+ publisher = {None},
+ title = {Scott Joplin, Pioneer},
+ volume = {3},
+ year = {1975}
+}
+
+@article{collins_2007, title={In the Loop: Creativity and Constraint in 8-bit Video Game Audio}, volume={4}, DOI={10.1017/S1478572208000510}, number={2}, journal={Twentieth-Century Music}, publisher={Cambridge University Press}, author={Collins, Karen}, year={2007}, pages={209–227}}
+
+
