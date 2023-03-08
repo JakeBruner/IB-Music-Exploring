@@ -1,5 +1,6 @@
 % !TeX spellcheck = en_US
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1.25in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -7,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage[hidelinks]{hyperref}  % most people dont know of this :3
+
+\usepackage{float}
 
 \usepackage{booktabs}
 \usepackage{tabularx}
@@ -43,17 +46,12 @@
 \providecommand{\main}{..} 
 \graphicspath{{\main/images/}{images/}}
 
-\iffalse
-% make command to do \romannumeral<number>\relax for lowercase and \expandafter{\romannumeral<number>\relax} for uppercase
-\newcommand{\rn}[1]{%
-  \expandafter\romannumeral\romannumeral{#1}\relax
-}
-\newcommand{\Rn}[1]{%
-  \expandafter\expandafter\romannumeral\romannumeral{#1}\relax
-}
-\fi
 
 \usepackage{pdfpages}
+
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
 
 \author{jcn514}
 \title{IB Music Exploring Portfolio}
@@ -137,7 +135,7 @@ To further explore jazz-influence on videogame music, I chose the “Wii Shop Ch
     The song begins by establishing the (entire!) key with a $V^{13}$ dominant chord in the melody’s main synth. The percussion fills in the two measures following, outlining its notorious \textit{bossa nova}, literally “new trend” or “new wave,” rhythm. Wii Shop’s composers broke the traditional confines of video game music---which has a reputation for its electronic sound---instead combining a unique blend of live instruments, bass guitar, maracas, and wood blocks in addition to a single, unchanging synth.
     The Wii Shop theme is notable for its complex harmonies and jazz influence. Taking advantage of many chord extensions, its composers thoughtfully create harmonic variety despite its perceived simplicity. Another motif of its is the tendency to use ii-V-I turnarounds to either modulate or generate momentum within a key. For instance, shortly after establishing the main theme, the introduction modulates to an entirely new key through a ii-V-I turnaround. Its composers, wary of the need to avoid too much atonality, ground the listener through these modulations in its use of a ostinato 5--1 bassline in the bass guitar corresponding to the respective harmony. Despite the occasional voice-leading chromaticism, this baseline serves to reinforce where the listener is in the piece, making the numerous cross-relations, accidentals, modulations, etc more palatable.\autocite{wiishop}
     
-\section{Exploring as a Performer Written Statement}
+\section{Exploring as a Creator Written Statement}
 
 To explore unfamiliar territory as an arranger, I chose to reinvent an orchestral piece for four hands piano. My stimulus was “Main Theme” from Octopath Traveler, composed by Yasonuri Nishiki. I came across this song within a videogame I had not played. I was intrigued by the instrumentation and western style despite its Japanese origin. I hadn’t written for four hands on the piano; I was excited to undertake the challenge. Therefore, this project falls under Global Context and AOI 3, since I adapted music to an unfamiliar instrumentation and the music evokes emotion within the game. 
 
@@ -148,7 +146,7 @@ My 32-bar composition was the first section of the orchestral piece. Using piano
 Overall, I was pleased with the outcome of my exploration, although it was more difficult than anticipated. Throughout the project, the most time-consuming part was adapting parts such that the pianists could play notes comfortably without overlapping. This had the effect of forcing me to interchange my melodies between hands and to write in some confusing fingerings. Despite the difficulty, I feel that I learnt a lot about composing for four hands piano during this process. If I were to complete this assignment once more, I would record each part since the sampled piano on the notation software made certain parts sound too muddy. By recording it, I would achieve more realistic dynamics between the melody and the filler notes within the chords.
 
 
-\section{Exploring as a Creator Written Statement}
+\section{Exploring as a Performer Written Statement}
 
 For the task of Exploring as a Performer, I chose the “World Ending Theme” from Super Mario World. This song falls under local context and the AOI 2: music for listening and performing. My relationship to this song prior to the project was limited, as I have never played Super Mario world. Yet, this has a local context because I enjoy listening to video game music in general. Furthermore, this piece falls into AOI 2 because I adapted this song to a rag-time genre, which is traditionally a performance-based convention. 
 My initial brainstorming ideas included emphasizing the rag-time-like sound with a ‘jumping’ left-hand figure and an accentuation of the swing rhythm. I focused on maintaining the general structure and ‘feel’ of the harmony throughout; the major changes I made were in voicing chord extensions and voice-leading With these core ideas in mind, I set out to research rag-time conventions with which I had no experience. One interesting thing I encountered was the influence of Black Americans on popularising rag-time, especially in the realm of American pop music. One composer I focused primarily on was Scott Joplin. After listening to his style, I felt I had a strong foundation. Some techniques I tried to implement were the emphasis on the bass note on beats 1 and 3 with the chords played typically higher on beats 2 and 4, and the syncopated ‘swing’ melody. Some less prevalent conventions that provided a ‘ragtime-like’ feel were the interplay between the b3rd and 3rd note diatonically and the use of altered dominant chords.
@@ -157,9 +155,13 @@ For the first week, it was helpful to explicitly write out the melody so I could
  
 As I progressed, the song became much easier and more enjoyable to play. Recording the performance was not terribly difficult; it only took around five takes. It also took a slight amount of work to set up the stereo microphone setup and to tweak my adjustments to the sound. Overall, from this assessment I have learned that my piano abilities are able to adapt to novel styles and situations, since I was able to perform in ragtime despite my inexperience. I really enjoyed exploring past the realms of classical music, wherein I have focused primarily on techniques like arpeggios and finger dexterity.
 
-\section{Audio excerpts}
+\section{References}
+\printbibliography[heading=none]
 
-\begin{table}[ht]
+\section{Appendix}
+
+
+\begin{table}[H]
 \centering
 \begin{tabularx}{0.9\textwidth}{@{}lX@{}}
 \toprule
@@ -170,9 +172,7 @@ Rude Buster – Toby Fox                           & 1:42                       
 Wii Shop Theme – Nintendo                        & 2:17                                                                \\ \bottomrule
 \end{tabularx}
 \caption{Audio tracks for Music Research}
-\end{table}
-
-\begin{table}[ht]
+\vspace*{1cm}
 \centering
 \begin{tabularx}{0.8\textwidth}{@{}lX@{}}
 \toprule
@@ -184,11 +184,8 @@ Exploring as a Performer         & 1:58               \\ \bottomrule
 \caption{Audio evidence for Exploring as a Creator/Performer}
 \end{table}
 
-\section{Appendix}
 \includepdf{octopathscore.pdf}
 
-\newpage
 
-\printbibliography
 
 \end{document}
