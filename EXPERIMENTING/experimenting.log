@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  17 APR 2023 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  18 APR 2023 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**exploringportfolio.tex
-(./exploringportfolio.tex
+**experimenting.tex
+(./experimenting.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -241,6 +241,7 @@ File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `pageanchor' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
 Package hyperref Info: Hyper index ON on input line 4200.
@@ -769,8 +770,8 @@ Package csquotes Info: Allocating character ".
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./exploringportfolio.aux)
-\openout1 = `exploringportfolio.aux'.
+(./experimenting.aux)
+\openout1 = `experimenting.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
@@ -872,9 +873,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 63.
 LaTeX Info: Redefining \pageref on input line 63.
 LaTeX Info: Redefining \nameref on input line 63.
- (./exploringportfolio.out) (./exploringportfolio.out)
+ (./experimenting.out) (./experimenting.out)
 \@outlinefile=\write4
-\openout4 = `exploringportfolio.out'.
+\openout4 = `experimenting.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -900,16 +901,27 @@ Package biblatex Info: ... and expl3
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = `exploringportfolio-blx.bib'.
+\openout3 = `experimenting-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'exploringportfolio.bbl' not found.
+Package biblatex Info: ... file 'experimenting.bbl' found.
 
-No file exploringportfolio.bbl.
+(./experimenting.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'alabama':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'harten_2018':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
 \c@lstlisting=\count446
-(/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
@@ -930,364 +942,375 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./exploringportfolio.toc)
+(./experimenting.toc)
 \tf@toc=\write5
-\openout5 = `exploringportfolio.toc'.
+\openout5 = `experimenting.toc'.
 
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+LaTeX Warning: Command \textendash invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+LaTeX Warning: Command \textendash invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+LaTeX Warning: Command \textendash invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+LaTeX Warning: Command \textendash invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 74.
+LaTeX Warning: Command \textendash invalid in math mode on input line 75.
 
-<images//tone gen ui.png, id=68, 1014.28937pt x 743.77875pt>
+[2]
+<images//tone gen ui.png, id=77, 1014.28937pt x 743.77875pt>
 File: images//tone gen ui.png Graphic file (type png)
 <use images//tone gen ui.png>
-Package pdftex.def Info: images//tone gen ui.png  used on input line 84.
+Package pdftex.def Info: images//tone gen ui.png  used on input line 88.
 (pdftex.def)             Requested size: 354.31049pt x 259.81575pt.
-[2] [3 <./images//tone gen ui.png>]
-<images//anthem.jpeg, id=82, 1564.84625pt x 998.73125pt>
+ [3 <./images//tone gen ui.png>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 103.
+
+[4]
+<images//anthem.jpeg, id=109, 1564.84625pt x 998.73125pt>
 File: images//anthem.jpeg Graphic file (type jpg)
 <use images//anthem.jpeg>
-Package pdftex.def Info: images//anthem.jpeg  used on input line 104.
+Package pdftex.def Info: images//anthem.jpeg  used on input line 112.
 (pdftex.def)             Requested size: 354.31049pt x 226.1221pt.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 111.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 111.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 111.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 111.
-
-[4 <./images//anthem.jpeg>]
-
-LaTeX Warning: Empty bibliography on input line 156.
-
-<images/fallingmysts.pdf, id=88, 686.565pt x 867.24pt>
+ [5] [6 <./images//anthem.jpeg>]
+<images/fallingmysts.pdf, id=130, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf>
-Package pdftex.def Info: images/fallingmysts.pdf  used on input line 159.
+Package pdftex.def Info: images/fallingmysts.pdf  used on input line 161.
 (pdftex.def)             Requested size: 686.56332pt x 867.2379pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf>
-Package pdftex.def Info: images/fallingmysts.pdf  used on input line 159.
+Package pdftex.def Info: images/fallingmysts.pdf  used on input line 161.
 (pdftex.def)             Requested size: 686.56332pt x 867.2379pt.
-<images/fallingmysts.pdf, id=91, page=1, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=133, page=1, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf, page 1>
-Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 159
+Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 161
 .
 (pdftex.def)             Requested size: 686.56332pt x 867.2379pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf, page 1>
-Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 159
+Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-[5]
+ [7]
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf, page 1>
-Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 1>
-Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 159
+Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
 <use images/fallingmysts.pdf, page 1>
-Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
- [6 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=139, page=2, 686.565pt x 867.24pt>
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 2>
-Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 159
+Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 2>
-Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 2>
-Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
- [7 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=145, page=3, 686.565pt x 867.24pt>
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 3>
-Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 3>
-Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 3>
-Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 159
+<use images/fallingmysts.pdf, page 1>
+Package pdftex.def Info: images/fallingmysts.pdf , page1 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [8 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=150, page=4, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=185, page=2, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 4>
-Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 159
+<use images/fallingmysts.pdf, page 2>
+Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 4>
-Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 159
+<use images/fallingmysts.pdf, page 2>
+Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 4>
-Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 159
+<use images/fallingmysts.pdf, page 2>
+Package pdftex.def Info: images/fallingmysts.pdf , page2 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
- [9 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=156, page=5, 686.565pt x 867.24pt>
+
+[9 <./images/fallingmysts.pdf>]
+<images/fallingmysts.pdf, id=190, page=3, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 5>
-Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 5>
-Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 159
+<use images/fallingmysts.pdf, page 3>
+Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 5>
-Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 159
+<use images/fallingmysts.pdf, page 3>
+Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 161
+.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 3>
+Package pdftex.def Info: images/fallingmysts.pdf , page3 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [10 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=161, page=6, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=195, page=4, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 6>
-Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 159
+<use images/fallingmysts.pdf, page 4>
+Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 6>
-Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 159
+<use images/fallingmysts.pdf, page 4>
+Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 6>
-Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 159
+<use images/fallingmysts.pdf, page 4>
+Package pdftex.def Info: images/fallingmysts.pdf , page4 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [11 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=166, page=7, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=200, page=5, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 7>
-Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 159
+<use images/fallingmysts.pdf, page 5>
+Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 7>
-Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 159
+<use images/fallingmysts.pdf, page 5>
+Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 7>
-Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 159
+<use images/fallingmysts.pdf, page 5>
+Package pdftex.def Info: images/fallingmysts.pdf , page5 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [12 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=171, page=8, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=205, page=6, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 8>
-Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 159
+<use images/fallingmysts.pdf, page 6>
+Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 8>
-Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 159
+<use images/fallingmysts.pdf, page 6>
+Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 8>
-Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 159
+<use images/fallingmysts.pdf, page 6>
+Package pdftex.def Info: images/fallingmysts.pdf , page6 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-
-[13 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=177, page=9, 686.565pt x 867.24pt>
+ [13 <./images/fallingmysts.pdf>]
+<images/fallingmysts.pdf, id=211, page=7, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 9>
-Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 159
-.
-(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
-File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 9>
-Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 159
+<use images/fallingmysts.pdf, page 7>
+Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 9>
-Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 159
+<use images/fallingmysts.pdf, page 7>
+Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 161
+.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 7>
+Package pdftex.def Info: images/fallingmysts.pdf , page7 used on input line 161
 .
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [14 <./images/fallingmysts.pdf>]
-<images/fallingmysts.pdf, id=182, page=10, 686.565pt x 867.24pt>
+<images/fallingmysts.pdf, id=216, page=8, 686.565pt x 867.24pt>
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 10>
-Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 15
-9.
+<use images/fallingmysts.pdf, page 8>
+Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 161
+.
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 10>
-Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 15
-9.
+<use images/fallingmysts.pdf, page 8>
+Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 161
+.
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
 File: images/fallingmysts.pdf Graphic file (type pdf)
-<use images/fallingmysts.pdf, page 10>
-Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 15
-9.
+<use images/fallingmysts.pdf, page 8>
+Package pdftex.def Info: images/fallingmysts.pdf , page8 used on input line 161
+.
 (pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
  [15 <./images/fallingmysts.pdf>]
-<images/5o8.pdf, id=187, 614.295pt x 794.97pt>
+<images/fallingmysts.pdf, id=221, page=9, 686.565pt x 867.24pt>
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 9>
+Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 161
+.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 9>
+Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 161
+.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 9>
+Package pdftex.def Info: images/fallingmysts.pdf , page9 used on input line 161
+.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+
+[16 <./images/fallingmysts.pdf>]
+<images/fallingmysts.pdf, id=226, page=10, 686.565pt x 867.24pt>
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 10>
+Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 16
+1.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 10>
+Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 16
+1.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+File: images/fallingmysts.pdf Graphic file (type pdf)
+<use images/fallingmysts.pdf, page 10>
+Package pdftex.def Info: images/fallingmysts.pdf , page10 used on input line 16
+1.
+(pdftex.def)             Requested size: 597.99815pt x 755.3661pt.
+ [17 <./images/fallingmysts.pdf>]
+<images/5o8.pdf, id=231, 614.295pt x 794.97pt>
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf>
-Package pdftex.def Info: images/5o8.pdf  used on input line 161.
+Package pdftex.def Info: images/5o8.pdf  used on input line 163.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf>
-Package pdftex.def Info: images/5o8.pdf  used on input line 161.
+Package pdftex.def Info: images/5o8.pdf  used on input line 163.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<images/5o8.pdf, id=190, page=1, 614.295pt x 794.97pt>
+<images/5o8.pdf, id=234, page=1, 614.295pt x 794.97pt>
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf, page 1>
-Package pdftex.def Info: images/5o8.pdf , page1 used on input line 161.
+Package pdftex.def Info: images/5o8.pdf , page1 used on input line 163.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf, page 1>
-Package pdftex.def Info: images/5o8.pdf , page1 used on input line 161.
+Package pdftex.def Info: images/5o8.pdf , page1 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf, page 1>
-Package pdftex.def Info: images/5o8.pdf , page1 used on input line 161.
+Package pdftex.def Info: images/5o8.pdf , page1 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf, page 1>
-Package pdftex.def Info: images/5o8.pdf , page1 used on input line 161.
+Package pdftex.def Info: images/5o8.pdf , page1 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
 <use images/5o8.pdf, page 1>
-Package pdftex.def Info: images/5o8.pdf , page1 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [16 <./images/5o8.pdf>]
-<images/5o8.pdf, id=233, page=2, 614.295pt x 794.97pt>
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 2>
-Package pdftex.def Info: images/5o8.pdf , page2 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 2>
-Package pdftex.def Info: images/5o8.pdf , page2 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 2>
-Package pdftex.def Info: images/5o8.pdf , page2 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [17 <./images/5o8.pdf>]
-<images/5o8.pdf, id=238, page=3, 614.295pt x 794.97pt>
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 3>
-Package pdftex.def Info: images/5o8.pdf , page3 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 3>
-Package pdftex.def Info: images/5o8.pdf , page3 used on input line 161.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 3>
-Package pdftex.def Info: images/5o8.pdf , page3 used on input line 161.
+Package pdftex.def Info: images/5o8.pdf , page1 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [18 <./images/5o8.pdf>]
-<images/5o8.pdf, id=243, page=4, 614.295pt x 794.97pt>
+<images/5o8.pdf, id=276, page=2, 614.295pt x 794.97pt>
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 4>
-Package pdftex.def Info: images/5o8.pdf , page4 used on input line 161.
+<use images/5o8.pdf, page 2>
+Package pdftex.def Info: images/5o8.pdf , page2 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 4>
-Package pdftex.def Info: images/5o8.pdf , page4 used on input line 161.
+<use images/5o8.pdf, page 2>
+Package pdftex.def Info: images/5o8.pdf , page2 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 4>
-Package pdftex.def Info: images/5o8.pdf , page4 used on input line 161.
+<use images/5o8.pdf, page 2>
+Package pdftex.def Info: images/5o8.pdf , page2 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [19 <./images/5o8.pdf>]
-<images/5o8.pdf, id=256, page=5, 614.295pt x 794.97pt>
+<images/5o8.pdf, id=282, page=3, 614.295pt x 794.97pt>
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 5>
-Package pdftex.def Info: images/5o8.pdf , page5 used on input line 161.
+<use images/5o8.pdf, page 3>
+Package pdftex.def Info: images/5o8.pdf , page3 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 5>
-Package pdftex.def Info: images/5o8.pdf , page5 used on input line 161.
+<use images/5o8.pdf, page 3>
+Package pdftex.def Info: images/5o8.pdf , page3 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/5o8.pdf Graphic file (type pdf)
-<use images/5o8.pdf, page 5>
-Package pdftex.def Info: images/5o8.pdf , page5 used on input line 161.
+<use images/5o8.pdf, page 3>
+Package pdftex.def Info: images/5o8.pdf , page3 used on input line 163.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [20 <./images/5o8.pdf>]
-(./exploringportfolio.aux)
+<images/5o8.pdf, id=287, page=4, 614.295pt x 794.97pt>
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 4>
+Package pdftex.def Info: images/5o8.pdf , page4 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 4>
+Package pdftex.def Info: images/5o8.pdf , page4 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 4>
+Package pdftex.def Info: images/5o8.pdf , page4 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [21 <./images/5o8.pdf>]
+<images/5o8.pdf, id=299, page=5, 614.295pt x 794.97pt>
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 5>
+Package pdftex.def Info: images/5o8.pdf , page5 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 5>
+Package pdftex.def Info: images/5o8.pdf , page5 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: images/5o8.pdf Graphic file (type pdf)
+<use images/5o8.pdf, page 5>
+Package pdftex.def Info: images/5o8.pdf , page5 used on input line 163.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [22 <./images/5o8.pdf>] (./experimenting.aux)
 
-Package rerunfilecheck Warning: File `exploringportfolio.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `exploringportfolio.out':
-(rerunfilecheck)             Before: AF17C1907A2188EB72C5187C15CA8BFB;2570
-(rerunfilecheck)             After:  0D2DA01F6811710998B1349FF060ACC7;2550.
-Package logreq Info: Writing requests to 'exploringportfolio.run.xml'.
-\openout1 = `exploringportfolio.run.xml'.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `experimenting.out' has not changed.
+(rerunfilecheck)             Checksum: 6632DCC383467F57E0741D68A4DBA010;2550.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'experimenting.run.xml'.
+\openout1 = `experimenting.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22477 strings out of 478994
- 380518 string characters out of 5858184
- 987316 words of memory out of 5000000
- 39612 multiletter control sequences out of 15000+600000
- 412540 words of font info for 62 fonts, out of 8000000 for 9000
+ 22703 strings out of 478994
+ 384842 string characters out of 5858184
+ 990302 words of memory out of 5000000
+ 39819 multiletter control sequences out of 15000+600000
+ 414470 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,17n,80p,1963b,1715s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,17n,80p,1957b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on exploringportfolio.pdf (20 pages, 916313 bytes).
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on experimenting.pdf (22 pages, 1018443 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
